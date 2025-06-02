@@ -43,7 +43,7 @@ export default function HomeScreen() {
         <ActionButton
           icon={<MaterialIcons name="map" size={24} color="white" />}
           label="Estimate Toll"
-          onPress={() => {}}
+          onPress={() => router.push('/tollestimate')}
         />
         <ActionButton
           icon={<Feather name="plus" size={24} color="white" />}

@@ -47,8 +47,10 @@ export default function Layout() {
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="settings" color={color} size={size} />
           ),
+          
         }}
       />
+      
     </Tabs>
   );
 }
